@@ -1,0 +1,6 @@
+@SiyesoProject.API_HostAddress = http://localhost:5151
+
+GET {{SiyesoProject.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
