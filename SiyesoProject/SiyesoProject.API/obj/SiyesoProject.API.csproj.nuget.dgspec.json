@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.API\\SiyesoProject.API.csproj": {}
+    "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.API\\SiyesoProject.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.API\\SiyesoProject.API.csproj": {
+    "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.API\\SiyesoProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.API\\SiyesoProject.API.csproj",
+        "projectUniqueName": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.API\\SiyesoProject.API.csproj",
         "projectName": "SiyesoProject.API",
-        "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.API\\SiyesoProject.API.csproj",
+        "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.API\\SiyesoProject.API.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.API\\obj\\",
+        "outputPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj": {
-                "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj"
+              "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj": {
+                "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj": {
+    "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj",
+        "projectUniqueName": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj",
         "projectName": "SiyesoProject.Application",
-        "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj",
+        "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Application\\obj\\",
+        "outputPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -100,14 +100,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj"
+              "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj": {
+                "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj"
               },
-              "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj"
+              "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj": {
+                "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj"
               },
-              "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj": {
-                "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj"
+              "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj": {
+                "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj"
               }
             }
           }
@@ -141,14 +141,14 @@
         }
       }
     },
-    "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj": {
+    "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj",
+        "projectUniqueName": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj",
         "projectName": "SiyesoProject.Domain",
-        "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj",
+        "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Domain\\obj\\",
+        "outputPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -200,14 +200,14 @@
         }
       }
     },
-    "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj": {
+    "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj",
+        "projectUniqueName": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj",
         "projectName": "SiyesoProject.Infrastructure",
-        "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj",
+        "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Infrastructure\\obj\\",
+        "outputPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -263,14 +263,14 @@
         }
       }
     },
-    "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj": {
+    "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj",
+        "projectUniqueName": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj",
         "projectName": "SiyesoProject.Persistence",
-        "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj",
+        "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj",
         "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Persistence\\obj\\",
+        "outputPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -285,8 +285,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj": {
-                "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj"
+              "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj": {
+                "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xkN6mImIYNU4/DLNBFZ7X/71HZQtVIOjfv9sgbJ2vfjOLktTLpVj2I/+0cfg1AcJpIaa4lP/3PEcarZFsS9BkQ==",
+  "dgSpecHash": "TNIPelkRnefCSfYz02iraZw5trrlTgD3mlawkCrdfwctIj3vUbeX469BKSEL8xNXKQ3UvOIKGnBIydu3FDUphA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj",
+  "projectFilePath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

@@ -1,0 +1,16 @@
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\bin\Debug\net8.0\SiyesoProject.Persistence.deps.json
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\bin\Debug\net8.0\SiyesoProject.Persistence.dll
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\bin\Debug\net8.0\SiyesoProject.Persistence.pdb
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\bin\Debug\net8.0\SiyesoProject.Domain.dll
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\bin\Debug\net8.0\SiyesoProject.Domain.pdb
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\SiyesoProject.Persistence.csproj.AssemblyReference.cache
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\SiyesoProject.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\SiyesoProject.Persistence.AssemblyInfoInputs.cache
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\SiyesoProject.Persistence.AssemblyInfo.cs
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\SiyesoProject.Persistence.csproj.CoreCompileInputs.cache
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\SiyesoProject.Persistence.sourcelink.json
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\SiyesoPr.008893F7.Up2Date
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\SiyesoProject.Persistence.dll
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\refint\SiyesoProject.Persistence.dll
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\SiyesoProject.Persistence.pdb
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Persistence\obj\Debug\net8.0\ref\SiyesoProject.Persistence.dll

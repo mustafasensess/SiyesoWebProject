@@ -8007,11 +8007,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj",
+      "projectUniqueName": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj",
       "projectName": "SiyesoProject.Infrastructure",
-      "projectPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj",
+      "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.Infrastructure\\obj\\",
+      "outputPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"

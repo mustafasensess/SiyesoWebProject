@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aAgeVvQhQOgVBkrcBVPyzGaWzPEo0BcXIWpWpmoLtS1l/Sd9XnZXojOto+OPGLHo0/Y0G94pRR3Rw4vOitwrbA==",
+  "dgSpecHash": "t9lRc1NnfqcBJpwg2+NhCczTd5ht4TxpYw7slOCPPOnHI3hefXreVAN+DrJFvD9EV2fvimd7+ZlYwk9ACwQAtQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\burak\\RiderProjects\\SiyesoProject\\SiyesoProject.API\\SiyesoProject.API.csproj",
+  "projectFilePath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.API\\SiyesoProject.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

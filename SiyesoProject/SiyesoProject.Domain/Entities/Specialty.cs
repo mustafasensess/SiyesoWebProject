@@ -1,6 +1,6 @@
 ﻿namespace SiyesoProject.Domain.Entities;
 
-public class Specialties : InfoBox
+public class Specialty : InfoBox
 {
     
 }
