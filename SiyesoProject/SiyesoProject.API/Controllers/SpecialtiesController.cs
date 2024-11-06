@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SiyesoProject.Application.Services.Interfaces;
 using SiyesoProject.Domain.Entities;
 using SiyesoProject.Infrastructure.Controller;
@@ -22,6 +23,7 @@ public class SpecialtiesController : CustomBaseController
     }
 
     [HttpDelete]
+    [Authorize]
     public async Task<IActionResult> Delete(Specialty? specialty)
     {
         var response = await _service.Delete(specialty);
@@ -29,6 +31,7 @@ public class SpecialtiesController : CustomBaseController
     }
 
     [HttpPut]
+    [Authorize]
     public async Task<IActionResult> Update(Specialty? specialty)
     {
         var response = await _service.Update(specialty);
@@ -36,6 +39,7 @@ public class SpecialtiesController : CustomBaseController
     }
 
     [HttpPost]
+    [Authorize]
     public async Task<IActionResult> Create(Specialty? specialty)
     {
         var response = await _service.Create(specialty);

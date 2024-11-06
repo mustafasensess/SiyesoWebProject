@@ -12,4 +12,8 @@
       <ProjectReference Include="..\SiyesoProject.Persistence\SiyesoProject.Persistence.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.10" />
+    </ItemGroup>
+
 </Project>

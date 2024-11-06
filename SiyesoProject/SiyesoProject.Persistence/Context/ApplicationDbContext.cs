@@ -6,7 +6,7 @@ namespace SiyesoProject.Persistence.Context;
 
 public class ApplicationDbContext : IdentityDbContext<User>
 {
-    public ApplicationDbContext()
+    public ApplicationDbContext(DbContextOptions dbContextOptions) : base(dbContextOptions)
     {
         
     }

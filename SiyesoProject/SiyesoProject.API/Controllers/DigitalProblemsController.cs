@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SiyesoProject.Application.Services.Interfaces;
 using SiyesoProject.Domain.Entities;
 using SiyesoProject.Infrastructure.Controller;
@@ -22,6 +23,7 @@ public class DigitalProblemsController : CustomBaseController
     }
     
     [HttpDelete]
+    [Authorize]
     public async Task<IActionResult> Delete(DigitalProblem? digitalProblem)
     {
         var response = await _service.Delete(digitalProblem);
@@ -29,6 +31,7 @@ public class DigitalProblemsController : CustomBaseController
     }
 
     [HttpPut]
+    [Authorize]
     public async Task<IActionResult> Update(DigitalProblem? digitalProblem)
     {
         var response = await _service.Update(digitalProblem);
@@ -36,6 +39,7 @@ public class DigitalProblemsController : CustomBaseController
     }
 
     [HttpPost]
+    [Authorize]
     public async Task<IActionResult> Create(DigitalProblem? digitalProblem)
     {
         var response = await _service.Create(digitalProblem);

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SiyesoProject.Application.Services.Interfaces;
 using SiyesoProject.Domain.Entities;
 using SiyesoProject.Infrastructure.Controller;
@@ -22,6 +23,7 @@ public class TeamController : CustomBaseController
     }
 
     [HttpDelete]
+    [Authorize]
     public async Task<IActionResult> Delete(Team? teamMember)
     {
         var response = await _service.Delete(teamMember);
@@ -29,6 +31,7 @@ public class TeamController : CustomBaseController
     }
 
     [HttpPut]
+    [Authorize]
     public async Task<IActionResult> Update(Team? teamMember)
     {
         var response = await _service.Update(teamMember);
@@ -36,6 +39,7 @@ public class TeamController : CustomBaseController
     }
 
     [HttpPost]
+    [Authorize]
     public async Task<IActionResult> Create(Team? teamMember)
     {
         var response = await _service.Create(teamMember);
