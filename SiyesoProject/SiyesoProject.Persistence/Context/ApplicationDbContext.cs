@@ -14,6 +14,7 @@ public class ApplicationDbContext : IdentityDbContext<User>
     public DbSet<Specialty> Specialties { get; set; }
     public DbSet<DigitalProblem> DigitalProblems { get; set; }
 
+    public DbSet<AboutUs> AboutUs { get; set; }
     public DbSet<Reference> References { get; set; }
     public DbSet<Team> TeamMembers { get; set; }
 }
