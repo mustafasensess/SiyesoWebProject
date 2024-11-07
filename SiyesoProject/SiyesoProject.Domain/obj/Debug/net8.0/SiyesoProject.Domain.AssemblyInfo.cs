@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SiyesoProject.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04d0f3fe82eb9bd071bd13beeb4484558fa5eaf5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9cd0547fa24ae17d51ec1104be918bd7714f35b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SiyesoProject.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SiyesoProject.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
