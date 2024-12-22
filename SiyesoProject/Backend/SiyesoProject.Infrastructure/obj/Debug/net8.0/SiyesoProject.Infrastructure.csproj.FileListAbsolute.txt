@@ -11,3 +11,16 @@ C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Infrastructure\o
 C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Infrastructure\obj\Debug\net8.0\refint\SiyesoProject.Infrastructure.dll
 C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Infrastructure\obj\Debug\net8.0\SiyesoProject.Infrastructure.pdb
 C:\GitHub Projects\SiyesoWebProject\SiyesoProject\SiyesoProject.Infrastructure\obj\Debug\net8.0\ref\SiyesoProject.Infrastructure.dll
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\bin\Debug\net8.0\SiyesoProject.Infrastructure.deps.json
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\bin\Debug\net8.0\SiyesoProject.Infrastructure.dll
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\bin\Debug\net8.0\SiyesoProject.Infrastructure.pdb
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\obj\Debug\net8.0\SiyesoProject.Infrastructure.csproj.AssemblyReference.cache
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\obj\Debug\net8.0\SiyesoProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\obj\Debug\net8.0\SiyesoProject.Infrastructure.AssemblyInfoInputs.cache
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\obj\Debug\net8.0\SiyesoProject.Infrastructure.AssemblyInfo.cs
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\obj\Debug\net8.0\SiyesoProject.Infrastructure.csproj.CoreCompileInputs.cache
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\obj\Debug\net8.0\SiyesoProject.Infrastructure.sourcelink.json
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\obj\Debug\net8.0\SiyesoProject.Infrastructure.dll
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\obj\Debug\net8.0\refint\SiyesoProject.Infrastructure.dll
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\obj\Debug\net8.0\SiyesoProject.Infrastructure.pdb
+C:\GitHub Projects\SiyesoWebProject\SiyesoProject\Backend\SiyesoProject.Infrastructure\obj\Debug\net8.0\ref\SiyesoProject.Infrastructure.dll

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3BPzeQF72wYR6nLy7brelp4wkKAC7zspYKSFYjXRmI6zO5wzz6MT0jtGk6WTZvzv/FffpjYqXYsC/jzPlj6PTA==",
+  "dgSpecHash": "jzNtdybtnocES9nOS7phLWAoWts59ktLqtSgBUihV6NloAgxFgOLcjr/tuYwdRISEREabhLs9egzy2LJpzcj/g==",
   "success": true,
-  "projectFilePath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj",
+  "projectFilePath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\Backend\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\burak\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\burak\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

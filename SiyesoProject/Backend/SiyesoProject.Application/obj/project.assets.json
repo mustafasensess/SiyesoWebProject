@@ -9924,11 +9924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj",
+      "projectUniqueName": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\Backend\\SiyesoProject.Application\\SiyesoProject.Application.csproj",
       "projectName": "SiyesoProject.Application",
-      "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Application\\SiyesoProject.Application.csproj",
+      "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\Backend\\SiyesoProject.Application\\SiyesoProject.Application.csproj",
       "packagesPath": "C:\\Users\\burak\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Application\\obj\\",
+      "outputPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\Backend\\SiyesoProject.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\burak\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -9943,14 +9943,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj": {
-              "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj"
+            "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\Backend\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj": {
+              "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\Backend\\SiyesoProject.Domain\\SiyesoProject.Domain.csproj"
             },
-            "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj": {
-              "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj"
+            "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\Backend\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj": {
+              "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\Backend\\SiyesoProject.Infrastructure\\SiyesoProject.Infrastructure.csproj"
             },
-            "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj": {
-              "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj"
+            "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\Backend\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj": {
+              "projectPath": "C:\\GitHub Projects\\SiyesoWebProject\\SiyesoProject\\Backend\\SiyesoProject.Persistence\\SiyesoProject.Persistence.csproj"
             }
           }
         }

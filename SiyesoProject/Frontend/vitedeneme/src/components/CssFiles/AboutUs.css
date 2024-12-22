@@ -1,0 +1,86 @@
+/* Ana container */
+.AboutUs {
+    display: flex;
+    flex-direction: column; /* Başlık üstte, içerik altta */
+    align-items: center; /* Ortala */
+    text-align: center; /* Başlık ortalanır */
+    margin: 20px auto; /* Sayfa ortasında yerleştir */
+    gap: 40px; /* Başlık ve içerik arasına boşluk ekler */
+     /* Genel genişlik sınırı */
+    padding: 0 20px; /* Yatay boşluk */
+    margin-top: 100px;
+}
+
+/* Başlık */
+.about-h1 {
+    font-size: 2.5rem; /* Başlık boyutu */
+    font-weight: bold;
+    margin-bottom: 20px; /* Başlık ve içerik arasına boşluk */
+    color: #000; /* Siyah renk */
+}
+
+/* İçerik düzenleme */
+.content {
+    display: flex;
+    font-size: large;
+    justify-content: space-between; /* Elemanları sağa ve sola hizalar */
+    align-items: flex-start; /* Üstten hizala */
+    width: 85%; /* İçeriği kapsayıcı kadar geniş yap */
+    gap: 40px; /* Görsel ve paragraf arasına boşluk */
+}
+
+/* Paragraf */
+.paragraph {
+    flex: 1.5; /* Paragraf daha geniş alan kaplar */
+    font-weight: normal;
+    text-align: justify; /* Paragrafı iki yana yasla */
+    line-height: 1.8; /* Satır aralığını artır */
+    font-size: 1rem; /* Yazı boyutu */
+    color: #333; /* Açık siyah metin rengi */
+}
+
+/* Görsel kapsayıcı */
+.img {
+    flex: 1; /* Görsel daha az alan kaplar */
+    display: flex;
+    justify-content: flex-end; /* Görseli sağa hizala */
+    align-items: center;
+}
+
+/* Görsel */
+.about {
+    width: 90%; /* Görsel genişliği */
+    height: auto; /* Oranı koru */
+    object-fit: cover; /* Görselin taşmasını önle */
+    margin-top: -10px; /* Görseli yukarı taşır */
+    border-radius: 10px; /* Köşeleri yumuşat */
+}
+
+
+@media (max-width: 800px) {
+    .content {
+        flex-direction: column; /* Elemanları dikey sıralar */
+    }
+
+    .img {
+        width: 90%;
+        order: 1; /* Görseli başlığın altına yerleştirir */
+    }
+
+    .paragraph {
+        order: 2; /* Paragrafı görselin altına yerleştirir */
+    }
+}
+@media (max-width: 1024px){
+    .content{
+        flex-direction: column;
+    }
+    .paragraph{
+        font-size: 1rem;
+        order: 2;
+    }
+    .img{
+        order: 1;
+        width: 85%;
+    }
+}

@@ -2,9 +2,13 @@
 
 public class Team : BaseEntity
 {
-    public string Title { get; set; }
+    public string ProfileName { get; set; }
 
-    public string Description { get; set; }
+    public string ProfileTitle { get; set; }
 
-    public UserInfoCard UserInfoCard { get; set; }
+    public string ProfileTitleEn { get; set; }
+    
+    public string ProfilePicture { get; set; }
+        
+        
 }

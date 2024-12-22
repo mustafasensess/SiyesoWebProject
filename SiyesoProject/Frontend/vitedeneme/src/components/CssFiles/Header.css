@@ -1,0 +1,151 @@
+/* Header */
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* Başlıkları sola hizala */
+    align-items: center;
+    background-image: url("/images/20.jpg");
+    padding: 0;
+    margin: 0;
+    position: relative; /* Göreceli konumlandırma */
+    height: 90vh; /* Daha az yükseklik */
+    clip-path: ellipse(95% 75% at 50% 25%);
+}
+
+/* Metin konteyner */
+.text-container {
+    text-align: left; /* Metni sola hizala */
+    color: #333; /* Daha görünür bir renk */
+    max-width: 800px;
+    animation: fadeIn 1.5s ease-in-out;
+    padding-left: 50px; /* Sol tarafa boşluk ekle */
+    z-index: 10; /* Görselin altında kalmaması için */
+}
+
+/* Başlık 1 stili */
+.header-title1 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05rem;
+    color: #333; /* Daha belirgin bir renk */
+}
+
+/* Başlık 2 stili */
+.header-title2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 1.2;
+    color: black; /* Yeni renk: Mavi ton */
+}
+
+/* Resim */
+/* Resim */
+.header-image {
+    position: absolute;
+    right: 10%;
+    top: 45%; /* Yukarı alındı */
+    transform: translateY(-50%);
+    z-index: 5;
+    padding: 10px; /* Daha az boşluk */
+    border-radius: 8px; /* Köşeleri yuvarlat */
+}
+.header-image-2 {
+    position: absolute;
+    top: 45%; /* Ortala */
+    left: 30%; /* Ortala */
+    transform: translate(-50%, -50%); /* Tam ortalama */
+    z-index: 10; /* Alt seviyede */
+    padding: 5px; /* Hafif boşluk */
+    border-radius: 50%; /* Yuvarlak köşe */
+}
+
+.header-image-2 img {
+    width: 450px; /* Küçük boyut */
+    height: auto;
+    display: block;
+    opacity: 0.1; /* Daha fazla şeffaflık */
+}
+.header-image img {
+    width: 450px; /* Görsel boyutu küçültüldü */
+    height: auto;
+    display: block;
+
+}
+
+/* Fade-in animasyonu */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobil cihazlar için düzenleme */
+@media (max-width: 768px) {
+    .text-container {
+        padding-left: 20px; /* Mobilde daha az sol boşluk */
+    }
+
+    .header-title1 {
+        font-size: 1.2rem; /* Başlık boyutunu küçült */
+    }
+
+    .header-title2 {
+        font-size: 1.8rem; /* Alt başlık boyutunu küçült */
+    }
+
+    .header-image {
+        top: 30%; /* Mobilde daha yukarı alındı */
+        right: 1%; /* Sağ boşluk azaltıldı */
+    }
+
+    .header-image img {
+        width: 150px; /* Mobil için görsel daha da küçültüldü */
+    }
+}
+@media (min-width: 1024px) and (max-width: 1300px){
+
+    .header-image {
+        top: 45%; /* Tablet için yukarı alındı */
+        right: 7%; /* Sağ boşluk ayarlandı */
+    }
+
+
+    .header-image img {
+        width: 300px; /* Tablet için görsel boyutu ayarlandı */
+    }
+
+    .header-title1 {
+        font-size: 1.2rem; /* Başlık boyutunu küçült */
+    }
+
+    .header-title2 {
+        font-size: 1.8rem; /* Alt başlık boyutunu küçült */
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header-image {
+        top: 35%; /* Tablet için yukarı alındı */
+        right: 7%; /* Sağ boşluk ayarlandı */
+    }
+
+
+    .header-image img {
+        width: 200px; /* Tablet için görsel boyutu ayarlandı */
+    }
+    .header-title1 {
+        font-size: 1.2rem; /* Başlık boyutunu küçült */
+    }
+
+    .header-title2 {
+        font-size: 1.8rem; /* Alt başlık boyutunu küçült */
+    }
+}

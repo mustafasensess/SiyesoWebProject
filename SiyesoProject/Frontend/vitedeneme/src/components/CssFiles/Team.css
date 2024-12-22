@@ -1,0 +1,101 @@
+/* Genel Carousel Yapısı */
+.team {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: white; /* Beyaz arka plan */
+    margin-bottom: 150px;
+}
+
+.team-carousel {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.team-carousel-item {
+    text-align: center;
+    padding: 1rem;
+    background: #fff;
+    margin-top: 40px;
+    border-radius: 12px; /* Daha yumuşak köşeler için */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, z-index 0.2s ease;
+    position: relative; /* Üst üste binmeyi kontrol etmek için */
+    z-index: 1;
+}
+.team-profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 16px; /* Yumuşak köşeler için daha yüksek değer */
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid grey; /* Gri kenarlık */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hafif bir gölge efekti */
+}
+
+.team-carousel-item:hover {
+    transform: scale(1.05); /* Hover sırasında büyüme efekti */
+}
+
+
+
+
+
+/* Takım Başlık */
+.team h1 {
+    font-size: 2.5rem; /* Başlık boyutu */
+    font-weight: bold;
+    margin-bottom: 20px; /* Başlık ve içerik arasına boşluk */
+    color: #000;
+    text-align: center;
+}
+
+.team h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+
+@media (max-width: 768px) {
+    .team-carousel-item {
+        max-width: 160px; /* Tabletlerde genişliği azalt */
+        margin: 0 auto;  /* Öğeyi yatayda ortala */
+    }
+
+}
+
+@media (max-width: 480px) {
+    .team-carousel-item {
+        max-width: 150px; /* Mobil cihazlarda tam genişlik */
+        margin: 0 auto;  /* Öğeyi yatayda ortala */
+    }
+
+}
+/*.team {
+    @apply max-w-7xl mx-auto px-4 py-8;
+}
+
+.team-carousel-item {
+    @apply flex flex-col items-center justify-center p-4;
+}
+
+.team-profile-pic {
+    @apply w-32 h-32 object-cover rounded-xl mb-4;
+}
+
+
+h1 {
+    @apply text-3xl font-bold text-center mb-4;
+}
+
+h2 {
+    @apply text-lg text-center mb-8;
+}*/
+/* Genel Carousel Yapısı */
+
+
+
+
+
+

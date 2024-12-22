@@ -1,0 +1,92 @@
+.ref-content-h1 {
+    font-size: 2.5rem; /* Başlık boyutu */
+    font-weight: bold;
+    margin-bottom: 40px; /* Başlık ve içerik arasına boşluk */
+    color: #000;
+    text-align: center/* Siyah renk */
+}
+.ref-content-h2 {
+    margin-bottom: 30px;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.8rem;
+}
+.itc{
+    transform: translateY(20px);
+}
+.adjust-position img {
+    transform: translateY(40px); /* Varsayılan olarak logoyu 10px aşağı kaydır */
+}
+.carousel-item{
+    margin-top: 50px;
+}
+@media (max-width: 1200px) {
+    .itc {
+        width: 85%;
+    }
+    .itc-1 {
+        width: 60%;
+    }
+    .itc-2{
+        transform: translateY(10px);  /* Küçük ekranlarda yukarı kaydırmayı sıfırla */
+                 /* İhtiyaca göre yukarı kaydır */
+        width: 85%;
+
+    }
+}
+@media (min-width: 1920px) {
+    .itc {
+        width: 100%;
+    }
+    .itc-1 {
+        width: 100%;
+    }
+    .itc-2{
+        width: 100%;
+
+
+    }
+}
+
+
+
+/*.logo-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    margin-top: 200px;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    animation: loop 10s linear infinite;
+    margin-bottom: 30px;
+}
+
+.row-1 {
+    animation-direction: normal;
+}
+
+.row-2 {
+    animation-direction: reverse;
+}
+
+.logo-row img {
+    height: 60px;
+    margin: 0 20px;
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}*/
