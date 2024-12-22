@@ -1,80 +1,79 @@
-/* Header */
+
 .header {
     width: 100%;
     display: flex;
-    justify-content: flex-start; /* Başlıkları sola hizala */
+    justify-content: flex-start;
     align-items: center;
     background-image: url("/images/20.jpg");
     padding: 0;
     margin: 0;
-    position: relative; /* Göreceli konumlandırma */
-    height: 90vh; /* Daha az yükseklik */
+    position: relative;
+    height: 90vh;
     clip-path: ellipse(95% 75% at 50% 25%);
 }
 
-/* Metin konteyner */
+
 .text-container {
-    text-align: left; /* Metni sola hizala */
-    color: #333; /* Daha görünür bir renk */
+    text-align: left;
+    color: #333;
     max-width: 800px;
     animation: fadeIn 1.5s ease-in-out;
-    padding-left: 50px; /* Sol tarafa boşluk ekle */
-    z-index: 10; /* Görselin altında kalmaması için */
+    padding-left: 50px;
+    z-index: 10;
 }
 
-/* Başlık 1 stili */
+
 .header-title1 {
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 0.5rem;
     letter-spacing: 0.05rem;
-    color: #333; /* Daha belirgin bir renk */
+    color: #333;
 }
 
-/* Başlık 2 stili */
+
 .header-title2 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-top: 0;
     line-height: 1.2;
-    color: black; /* Yeni renk: Mavi ton */
+    color: black;
 }
 
-/* Resim */
-/* Resim */
+
 .header-image {
     position: absolute;
     right: 10%;
-    top: 45%; /* Yukarı alındı */
+    top: 45%;
     transform: translateY(-50%);
     z-index: 5;
-    padding: 10px; /* Daha az boşluk */
-    border-radius: 8px; /* Köşeleri yuvarlat */
+    padding: 10px;
+    border-radius: 8px;
 }
 .header-image-2 {
     position: absolute;
-    top: 45%; /* Ortala */
-    left: 30%; /* Ortala */
-    transform: translate(-50%, -50%); /* Tam ortalama */
-    z-index: 10; /* Alt seviyede */
-    padding: 5px; /* Hafif boşluk */
-    border-radius: 50%; /* Yuvarlak köşe */
+    top: 45%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    padding: 5px;
+    border-radius: 50%;
 }
 
 .header-image-2 img {
-    width: 450px; /* Küçük boyut */
+    width: 450px;
     height: auto;
     display: block;
-    opacity: 0.1; /* Daha fazla şeffaflık */
+    opacity: 0.1;
 }
 .header-image img {
-    width: 450px; /* Görsel boyutu küçültüldü */
+    width: 450px;
     height: auto;
     display: block;
 
 }
 
-/* Fade-in animasyonu */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -86,66 +85,66 @@
     }
 }
 
-/* Mobil cihazlar için düzenleme */
+
 @media (max-width: 768px) {
     .text-container {
-        padding-left: 20px; /* Mobilde daha az sol boşluk */
+        padding-left: 20px;
     }
 
     .header-title1 {
-        font-size: 1.2rem; /* Başlık boyutunu küçült */
+        font-size: 1.2rem;
     }
 
     .header-title2 {
-        font-size: 1.8rem; /* Alt başlık boyutunu küçült */
+        font-size: 1.8rem;
     }
 
     .header-image {
-        top: 30%; /* Mobilde daha yukarı alındı */
-        right: 1%; /* Sağ boşluk azaltıldı */
+        top: 30%;
+        right: 1%;
     }
 
     .header-image img {
-        width: 150px; /* Mobil için görsel daha da küçültüldü */
+        width: 150px;
     }
 }
 @media (min-width: 1024px) and (max-width: 1300px){
 
     .header-image {
-        top: 45%; /* Tablet için yukarı alındı */
-        right: 7%; /* Sağ boşluk ayarlandı */
+        top: 45%;
+        right: 7%;
     }
 
 
     .header-image img {
-        width: 300px; /* Tablet için görsel boyutu ayarlandı */
+        width: 300px;
     }
 
     .header-title1 {
-        font-size: 1.2rem; /* Başlık boyutunu küçült */
+        font-size: 1.2rem;
     }
 
     .header-title2 {
-        font-size: 1.8rem; /* Alt başlık boyutunu küçült */
+        font-size: 1.8rem;
     }
 }
 
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .header-image {
-        top: 35%; /* Tablet için yukarı alındı */
-        right: 7%; /* Sağ boşluk ayarlandı */
+        top: 35%;
+        right: 7%;
     }
 
 
     .header-image img {
-        width: 200px; /* Tablet için görsel boyutu ayarlandı */
+        width: 200px;
     }
     .header-title1 {
-        font-size: 1.2rem; /* Başlık boyutunu küçült */
+        font-size: 1.2rem;
     }
 
     .header-title2 {
-        font-size: 1.8rem; /* Alt başlık boyutunu küçült */
+        font-size: 1.8rem;
     }
 }

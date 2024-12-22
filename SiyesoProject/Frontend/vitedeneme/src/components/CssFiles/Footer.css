@@ -1,33 +1,33 @@
 .footer {
-    background-color: #000; /* Siyah arka plan */
-    color: #fff; /* Beyaz yazı rengi */
-    padding: 100px 0; /* Üst-alt boşluğu artırdık */
-    font-family: Arial, sans-serif; /* Okunaklı yazı tipi */
-    min-height: 300px; /* Minimum yükseklik ekleyebilirsiniz */
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0;
+    font-family: Arial, sans-serif;
+    min-height: 300px;
 }
 
 
 
 .footer-content {
-    display: flex; /* Yatay düzen için flexbox */
-    align-items: center; /* Elemanları dikeyde ortala */
-    justify-content: space-between; /* Logo ve bilgileri arala */
-    max-width: 1000px; /* Genişlik sınırı */
-    margin: 0 auto; /* Ortalamak için */
-    padding: 0 20px; /* Yatay kenar boşlukları */
-    flex-wrap: wrap; /* Küçük ekranlarda alt alta geçiş */
-    gap: 20px; /* Mobilde boşluk */
+    display: flex;
+    align-items: center; /
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto; /
+    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .footer-logo {
-    width: 150px; /* Logo boyutu */
-    height: auto; /* Oran koruma */
+    width: 150px;
+    height: auto;
 }
 
 .footer-info {
-    text-align: left; /* Metni sola hizala */
-    max-width: 400px; /* Bilgilerin genişliğini sınırlayın */
-    line-height: 1.8; /* Satır aralığı */
+    text-align: left;
+    max-width: 400px;
+    line-height: 1.8;
 }
 
 .footer-info h3 {
@@ -40,20 +40,20 @@
 }
 
 .footer-info a {
-    color: #00aaff; /* Mavi bağlantı */
+    color: #00aaff;
     text-decoration: none;
 }
 
 .footer-info a:hover {
-    text-decoration: underline; /* Üzerine gelince altı çizili */
+    text-decoration: underline;
 }
 
 
 .footer-bottom {
     margin-top: 80px;
-    border-top: 1px solid #333; /* Çizgi */
+    border-top: 1px solid #333;
     padding-top: 30px;
     font-size: 0.9rem;
     text-align: center;
-    color: #ccc; /* Soluk beyaz */
+    color: #ccc;
 }

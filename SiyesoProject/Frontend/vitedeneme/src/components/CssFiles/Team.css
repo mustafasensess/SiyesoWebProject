@@ -40,11 +40,11 @@
 
 
 
-/* Takım Başlık */
+
 .team h1 {
-    font-size: 2.5rem; /* Başlık boyutu */
+    font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 20px; /* Başlık ve içerik arasına boşluk */
+    margin-bottom: 20px;
     color: #000;
     text-align: center;
 }
@@ -59,40 +59,19 @@
 
 @media (max-width: 768px) {
     .team-carousel-item {
-        max-width: 160px; /* Tabletlerde genişliği azalt */
-        margin: 0 auto;  /* Öğeyi yatayda ortala */
+        max-width: 160px;
+        margin: 0 auto;
     }
 
 }
 
 @media (max-width: 480px) {
     .team-carousel-item {
-        max-width: 150px; /* Mobil cihazlarda tam genişlik */
-        margin: 0 auto;  /* Öğeyi yatayda ortala */
+        max-width: 150px;
+        margin: 0 auto;
     }
 
 }
-/*.team {
-    @apply max-w-7xl mx-auto px-4 py-8;
-}
-
-.team-carousel-item {
-    @apply flex flex-col items-center justify-center p-4;
-}
-
-.team-profile-pic {
-    @apply w-32 h-32 object-cover rounded-xl mb-4;
-}
-
-
-h1 {
-    @apply text-3xl font-bold text-center mb-4;
-}
-
-h2 {
-    @apply text-lg text-center mb-8;
-}*/
-/* Genel Carousel Yapısı */
 
 
 

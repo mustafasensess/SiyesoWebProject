@@ -67,13 +67,13 @@ const Team: React.FC = () => {
                         dots
                         responsive={[
                             {
-                                breakpoint: 900, // Tabletler için
+                                breakpoint: 900,
                                 settings: {
                                     slidesToShow: 2,
                                 },
                             },
                             {
-                                breakpoint: 480, // Mobil cihazlar için
+                                breakpoint: 480,
                                 settings: {
                                     slidesToShow: 1,
                                 },

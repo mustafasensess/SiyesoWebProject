@@ -14,91 +14,31 @@
     margin-bottom: 5rem;
 }
 
-/*.ant-card-head-title{
-    font-weight: bold;
-}*/
-/*.custom-card1 .ant-card-head-title {
-    text-align: center;
-    font-size: 18px;
-    color: black;
-}
-.custom-card2 .ant-card-head-title {
-    text-align: center;
-    font-size: 18px;
-    color: black;
-}
-.custom-card3 .ant-card-head-title {
-    text-align: center;
-    font-size: 18px;
-    color: black;
-}
-.custom-card4 .ant-card-head-title {
-    text-align: center;
-    font-size: 18px;
-    color: black;
-}
 
-.custom-card1,
-.custom-card2
-{
-    height: 280px;
-    border: 2px solid lightgrey;
-    width: 450px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
-}
-
-.custom-card3,
-.custom-card4
-{
-    height: 240px;
-    border: 2px solid lightgrey;
-    width: 450px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
-}*/
-
-/*.custom-card2 .ant-card-extra .anticon {
-    color: red;
-    font-size: 24px;
-}
-.custom-card1 .ant-card-extra .anticon {
-    color: green;
-    font-size: 24px;
-}
-.custom-card3 .ant-card-extra .anticon {
-    color: blue;
-    font-size: 24px;
-}
-.custom-card4 .ant-card-extra .anticon {
-    color: orange;
-    font-size: 24px;
-}*/
-/* Mobil Cihazlar için Düzenleme */
-/* Mobil Cihazlar için Düzenleme */
-/* Mobil Cihazlar için Düzenleme */
 @media (max-width: 768px) {
-    /* Kartların genişliğini artır */
+
     .custom-card1,
     .custom-card2,
     .custom-card3,
     .custom-card4 {
         width: 100%;
-        max-width: 350px; /* Kart genişliğini artırdık */
-        height: 285px;    /* Yüksekliği artırdık */
+        max-width: 350px;
+        height: 285px;
     }
 
-    /* Başlıkların yazı boyutunu küçült */
+
     .ant-card-head-title {
-        font-size: 13px;   /* Yazı boyutunu küçülttük */
-        white-space: normal; /* Metnin alt satıra geçmesine izin verdik */
-        word-wrap: break-word; /* Uzun kelimeleri kırarak sığdırdık */
-        padding: 0 10px;   /* Kenarlardan boşluk ekledik */
+        font-size: 13px;
+        white-space: normal;
+        word-wrap: break-word;
+        padding: 0 10px;
     }
 
-    /* Başlık Stili */
+
     .digitalProblems h1 {
-        font-size: 1.6rem; /* Başlık boyutunu küçülttük */
-        margin-top: 60px;  /* Üst boşluğu azalttık */
-        margin-bottom: 30px; /* Alt boşluğu azalttık */
+        font-size: 1.6rem;
+        margin-top: 60px;
+        margin-bottom: 30px;
     }
 }
 
@@ -110,7 +50,7 @@
 .custom-card7 {
     width: 100%;
     max-width: 420px;
-    height: 450px; /* Sabit yükseklik */
+    height: 450px;
     border: 2px solid lightgrey;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -132,7 +72,7 @@
 .custom-card6 .ant-card-meta-description,
 .custom-card7 .ant-card-meta-description {
     flex-grow: 1;
-    color: #000; /* Açıklama metni siyah renk */
+    color: #000;
     text-align: center;
     font-size: 16px;
 }
@@ -142,9 +82,9 @@
 .custom-card6 .ant-card-cover img,
 .custom-card7 .ant-card-cover img {
     height: 270px;
-    width: 100%;            /* Genişliği kartın sınırlarına uyarlar */
-    max-width: 100%;        /* Taşmayı engeller */
-    object-fit: cover;      /* Resmin oranını korur ve alanı doldurur */
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
     display: block;
 }
 .custom-card .ant-card-meta-title,

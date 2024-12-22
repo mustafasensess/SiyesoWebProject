@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    margin: 70px 0; /* Üstten ve alttan mesafeyi artırdım */
+    margin: 70px 0;
 }
 
 .specialties-h1 {
@@ -23,14 +23,14 @@
 .specialty-card {
     background-color: #fff;
     border-radius: 20px;
-    padding: 60px; /* İç boşluğu artırdık */
+    padding: 60px;
     box-shadow: 0 8px 16px rgba(54, 57, 255, 0.3);
     text-align: center;
     font-size: 1em;
     transition: transform 0.2s ease;
-    height: auto; /* Dinamik yükseklik */
-    min-height: 350px; /* Minimum yüksekliği artırdık */
-    max-width: 470px; /* Genişlik artırıldı */
+    height: auto;
+    min-height: 350px;
+    max-width: 470px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -44,15 +44,15 @@
 }
 
 .specialty-card .icon-box {
-    width: 90px; /* Kutunun boyutu artırıldı */
+    width: 90px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: lightblue; /* Açık mavi arka plan */
+    background-color: lightblue;
     border-radius: 20%;
     margin-bottom: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge eklendi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .specialty-card .icon-box .icon {
@@ -96,7 +96,7 @@
     }
 
     .specialty-card .icon-box {
-        width: 70px; /* Daha küçük ekranlar için boyut ayarı */
+        width: 70px;
         height: 70px;
     }
 
