@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { Carousel } from "antd";
+import React, {useState, useEffect} from "react";
+import {Button, Carousel} from "antd";
 import axios from "axios";
 import "../CssFiles/Team.css";
-import { useLanguage } from "../../contexts/LanguageContext.tsx";
+import {useLanguage} from "../../contexts/LanguageContext.tsx";
+import {LeftOutlined} from "@ant-design/icons";
+
 
 interface TeamData {
     profileTitle: string;
@@ -14,7 +16,7 @@ interface TeamData {
 const Team: React.FC = () => {
     const [teamData, setTeamData] = useState<TeamData[]>([]);
     const [error, setError] = useState(false);
-    const { language } = useLanguage();
+    const {language} = useLanguage();
 
     useEffect(() => {
         const fetchTeamData = async () => {
@@ -47,7 +49,7 @@ const Team: React.FC = () => {
                 padding: "50px",
                 backgroundColor: "white",
                 marginTop: "30px",
-                marginBottom: "150px",
+                marginBottom: "100px",
             }}
         >
             <div className="team sm:text-center">
@@ -60,45 +62,47 @@ const Team: React.FC = () => {
                         : "Her geçen gün büyüyen, deneyimli kadromuz ile birlikte 'yenilikçi çözümler' sunmaya devam edebiliyoruz"}
                 </h2>
                 {teamData.length > 0 ? (
-                    <Carousel
-                        autoplay
-                        autoplaySpeed={2000}
-                        slidesToShow={3}
-                        dots
-                        responsive={[
-                            {
-                                breakpoint: 900,
-                                settings: {
-                                    slidesToShow: 2,
+                    <div className="team-carousel">
+                        <Carousel
+                            dots={false}
+                            autoplay
+                            autoplaySpeed={1700}
+                            slidesToShow={3}
+                            arrows={true}
+                            responsive={[
+                                {
+                                    breakpoint: 900,
+                                    settings: {
+                                        slidesToShow: 2,
+                                    },
                                 },
-                            },
-                            {
-                                breakpoint: 480,
-                                settings: {
-                                    slidesToShow: 1,
+                                {
+                                    breakpoint: 480,
+                                    settings: {
+                                        slidesToShow: 1,
+                                    },
                                 },
-                            },
-                        ]}
-                    >
-                        {teamData.map((user, index) => (
-                            <div key={index} className="team-carousel-item">
-                                <img
-                                    src={user.profilePicture}
-                                    alt={user.profileName}
-                                    className="team-profile-pic"
-                                />
-                                <div className="team-cont">
-                                    <h3 className="font-bold text-lg">{user.profileName}</h3>
-                                    <p className="text-base">
-                                        {language === "en"
-                                            ? user.profileTitleEn
-                                            : user.profileTitle}
-                                    </p>
+                            ]}
+                        >
+                            {teamData.map((user, index) => (
+                                <div key={index} className="team-carousel-item">
+                                    <img
+                                        className="team-profile-pic"
+                                        src={user.profilePicture}
+                                        alt={user.profileName}
+                                    />
+                                    <div className="team-cont">
+                                        <h3 className="font-bold text-lg">{user.profileName}</h3>
+                                        <p className="text-base">
+                                            {language === "en"
+                                                ? user.profileTitleEn
+                                                : user.profileTitle}
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        ))}
-                    </Carousel>
-
+                            ))}
+                        </Carousel>
+                    </div>
                 ) : (
                     <div>Loading team data...</div>
                 )}

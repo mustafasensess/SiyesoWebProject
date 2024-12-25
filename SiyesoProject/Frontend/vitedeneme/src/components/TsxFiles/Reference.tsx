@@ -52,7 +52,7 @@ const Reference: React.FC = () => {
                     autoplay
                     autoplaySpeed={2000}
                     slidesToShow={4}
-                    dots
+                    dots = {false}
                     responsive={[
                         {
                             breakpoint: 1200,

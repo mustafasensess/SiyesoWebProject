@@ -3,37 +3,47 @@
     text-align: center;
     padding: 2rem 1rem;
     background-color: white; /* Beyaz arka plan */
-    margin-bottom: 150px;
+
+}
+.team-carousel-item{
+    margin-top: 20px;
+}
+.team-carousel .slick-list {
+    width: 80%; /* Genişliği düşür */
+    margin: 0 auto; /* Ortalamayı sağla */
+    transform: translateX(0); /* Varsayılan pozisyonda bırak */
+}
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+    color: black;
+    top:45%;
+
 }
 
-.team-carousel {
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-.team-carousel-item {
-    text-align: center;
-    padding: 1rem;
-    background: #fff;
-    margin-top: 40px;
-    border-radius: 12px; /* Daha yumuşak köşeler için */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease, z-index 0.2s ease;
-    position: relative; /* Üst üste binmeyi kontrol etmek için */
-    z-index: 1;
-}
 .team-profile-pic {
-    width: 120px;
-    height: 120px;
-    border-radius: 16px; /* Yumuşak köşeler için daha yüksek değer */
-    object-fit: cover;
-    margin-bottom: 1rem;
-    border: 3px solid grey; /* Gri kenarlık */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hafif bir gölge efekti */
+    width: 140px;
+    height: 140px;
+    border-radius: 15px; /* Adjust this value for softer corners */
+    object-fit: cover; /* Ensures the image fills the square without distortion */
+    border: 2px solid grey; /* Optional: Add a border for better visibility */
+    margin: 0 auto; /* Centers the image inside the container */
+}
+.team-cont {
+    margin-top: 15px; /* Adds space between the image and the title/name */
+    text-align: center; /* Centers the text below the image */
+}
+
+.team-cont h3 {
+    margin-bottom: 5px; /* Space between name and title */
+}
+
+.team-cont p {
+    margin: 0; /* Ensures no extra spacing below the title */
 }
 
 .team-carousel-item:hover {
-    transform: scale(1.05); /* Hover sırasında büyüme efekti */
+    transform: scale(1.05);
+    transition: transform 0.3s ease;/* Hover sırasında büyüme efekti */
 }
 
 
