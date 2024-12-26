@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from "react";
-import {Button, Carousel} from "antd";
+import {Carousel} from "antd";
 import axios from "axios";
 import "../CssFiles/Team.css";
 import {useLanguage} from "../../contexts/LanguageContext.tsx";
-import {LeftOutlined} from "@ant-design/icons";
+import {ArrowLeftOutlined, BackwardOutlined, CaretLeftOutlined, LeftOutlined, RightOutlined} from "@ant-design/icons";
 
 
 interface TeamData {
@@ -12,6 +12,24 @@ interface TeamData {
     profileTitleEn: string;
     profilePicture: string;
 }
+const CustomPrevArrow = ({ className, style, onClick }) => (
+    <div
+        className={className}
+        style={{ ...style, fontSize: '20px', color: 'black', zIndex: 1 }}
+        onClick={onClick}
+    >
+        <LeftOutlined />
+    </div>
+);
+const CustomNextArrow = ({ className, style, onClick }) => (
+    <div
+        className={className}
+        style={{ ...style, fontSize: '20px', color: 'black', zIndex: 1 }}
+        onClick={onClick}
+    >
+        <RightOutlined />
+    </div>
+);
 
 const Team: React.FC = () => {
     const [teamData, setTeamData] = useState<TeamData[]>([]);
@@ -68,7 +86,7 @@ const Team: React.FC = () => {
                             autoplay
                             autoplaySpeed={1700}
                             slidesToShow={3}
-                            arrows={true}
+                            arrows
                             responsive={[
                                 {
                                     breakpoint: 900,

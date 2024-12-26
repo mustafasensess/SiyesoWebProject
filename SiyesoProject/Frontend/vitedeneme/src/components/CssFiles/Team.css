@@ -9,7 +9,7 @@
     margin-top: 20px;
 }
 .team-carousel .slick-list {
-    width: 80%; /* Genişliği düşür */
+    width: 95%; /* Genişliği düşür */
     margin: 0 auto; /* Ortalamayı sağla */
     transform: translateX(0); /* Varsayılan pozisyonda bırak */
 }
